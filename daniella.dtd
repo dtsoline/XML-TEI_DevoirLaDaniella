@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ENTITY ens  "<choice><orig>ens</orig><reg>ents</reg></choice>" >
+<!ENTITY ans  "<choice><orig>ans</orig><reg>ants</reg></choice>" >
+
+<!ENTITY skpr "<choice><sic>Shakspeare</sic><corr>Shakespeare</corr></choice>" >
+
