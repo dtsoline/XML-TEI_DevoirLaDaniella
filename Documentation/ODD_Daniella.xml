@@ -669,7 +669,7 @@
                   <!-- <constraintSpec scheme="schematron" ident="numReq">
                      <constraint>
                         <s:ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
-                        <s:rule context="//tei:cb[position()>1]">
+                        <s:rule context="//tei:cb[position() !=1]">
                            <s:assert test="number(@n) = number(preceding-sibling::tei:cb[1]/@n) + 1">
                               La numérotation doit être continue. </s:assert>
                         </s:rule>
